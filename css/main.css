@@ -13,6 +13,10 @@
   margin: 3px;
 }
 
+* {
+  scroll-behavior: smooth !important;
+}
+
 body {
   height: 100vh;
   margin: 0;
