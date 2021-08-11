@@ -209,14 +209,10 @@ footer {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    gap: 2em;
     justify-content: space-between;
     background-color: #6E00EE;
-    height: 8em;
-    padding: 0 2em;
-
-    .logo {
-        margin-top: 1.5em;
-    }
+    padding: 2em;
 
     .footer-nav {
         ul {
@@ -230,8 +226,23 @@ footer {
         }
     }
 
-    .footer-social, .footer-decorative {
+    .footer-decorative {
         display: none;
+    }
+
+    .footer-social {
+        display: block;
+        justify-self: center;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 8em;
+
+            img {
+                width: 22px;
+            }
+        }
     }
 }
 
