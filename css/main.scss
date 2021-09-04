@@ -2,7 +2,7 @@
 
 ::-webkit-scrollbar {
   width: 8px;
-  background-color: #d1d1d1;
+  background-color: #d4d4d4;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -61,7 +61,7 @@ header {
       a {
         display: block;
         padding: 0 1em;
-        color: white;
+        color: #f7f7f7;
       }
     }
   }
@@ -74,7 +74,7 @@ header {
 
 .main {
   background-color: #6e00ee;
-  color: white;
+  color: #f7f7f7;
   display: grid;
   text-align: center;
   padding: 4em;
@@ -148,7 +148,7 @@ section {
 }
 
 .skills-container ul li {
-  background-color: white;
+  background-color: #f7f7f7;
   padding: 2em;
   border-radius: 1em;
   margin-bottom: 1em;
@@ -228,7 +228,7 @@ footer {
       a {
         display: block;
         margin: 1em;
-        color: white;
+        color: #f7f7f7;
       }
     }
   }
