@@ -477,9 +477,6 @@ footer .footer-social ul img {
     padding-bottom: 9em;
     padding-left: 4em;
   }
-  .about_me .left .description {
-    margin-top: 2em;
-  }
   .about_me .right img {
     display: block;
     border-radius: 50px;
@@ -524,9 +521,6 @@ footer .footer-social ul img {
   .about_me .left {
     padding: unset;
     margin-top: -5em;
-  }
-  .about_me .left .description {
-    margin-top: 2em;
   }
   .about_me .right img {
     display: block;
