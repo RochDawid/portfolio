@@ -6,7 +6,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #ED5718;
+  background-color: #ed5718;
   border-radius: 20px;
 }
 
@@ -102,17 +102,6 @@ section {
 
 .about_me {
   position: relative;
-}
-.about_me::before {
-  content: "";
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-color: #6700ee27;
-  top: 0;
-  left: 0;
-  z-index: -1;
 }
 
 .subtitle {
@@ -280,15 +269,10 @@ footer {
 
   .about_me {
     display: grid;
-    grid-template-columns: 62% auto;
+    grid-template-columns: 50% auto;
 
-    .left {
-      margin: unset;
-      padding-left: 7em;
-
-      .description {
-        margin-top: 2em;
-      }
+    .description {
+      margin-top: 2em;
     }
 
     .right {
@@ -296,14 +280,11 @@ footer {
         display: block;
         border-radius: 50px;
       }
-      margin-top: unset;
     }
   }
 
   .skills {
-    margin-top: -7em;
-    margin-bottom: -7em;
-    padding-top: 7em;
+    margin-top: -4em;
   }
 
   .skills-container ul {
@@ -366,7 +347,7 @@ footer {
   }
 
   section {
-    padding: 4em;
+    padding: 4em 4em 0em 4em;
   }
 
   .social-header {
@@ -432,24 +413,19 @@ footer {
   .about_me {
     .left {
       margin: unset;
-      padding-bottom: 9em;
-      padding-left: 4em;
     }
 
     .right {
-      img {
-        display: block;
-        border-radius: 50px;
-      }
+      margin-top: -4em;
     }
+  }
+
+  .skills {
+    margin-top: 0em;
   }
 
   .portfolio-container {
     grid-gap: 4em;
-  }
-
-  .skills {
-    margin-top: -9em;
   }
 
   .contact-me {
@@ -490,14 +466,14 @@ footer {
 
     .right {
       img {
-        display: block;
-        border-radius: 50px;
+        margin-top: -5em;
       }
     }
   }
 
-  .skills {
-    margin-top: -9em;
+  .skills-container ul {
+    margin-top: -8em;
+    padding: unset;
   }
 
   .social-header {
@@ -505,7 +481,7 @@ footer {
   }
 
   section {
-    padding: 10em 10em 4em 10em;
+    padding: 10em 10em 0em 10em;
   }
 
   .main .content {
@@ -526,11 +502,6 @@ footer {
     padding: 2em 2em 2em 17em;
   }
 
-  .about_me::before {
-    left: 12em;
-    top: 2em;
-  }
-
   .about_me .left {
     margin: unset;
     padding: unset;
@@ -538,7 +509,11 @@ footer {
   }
 
   .skills {
-    margin-top: -9em;
+    margin-top: -2em;
+  }
+
+  .skills-container ul {
+    margin-top: unset;
   }
 
   .social-header {
@@ -546,7 +521,7 @@ footer {
   }
 
   section {
-    padding: 6em 20em 4em 20em;
+    padding: 6em 20em 2em 20em;
   }
 
   .main .content {

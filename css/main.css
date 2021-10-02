@@ -5,7 +5,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #ED5718;
+  background-color: #ed5718;
   border-radius: 20px;
 }
 
@@ -119,18 +119,6 @@ section {
 
 .about_me {
   position: relative;
-}
-
-.about_me::before {
-  content: "";
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-color: #6700ee27;
-  top: 0;
-  left: 0;
-  z-index: -1;
 }
 
 .subtitle {
@@ -316,27 +304,18 @@ footer .footer-social ul img {
   .about_me {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 62% auto;
-        grid-template-columns: 62% auto;
+    -ms-grid-columns: 50% auto;
+        grid-template-columns: 50% auto;
   }
-  .about_me .left {
-    margin: unset;
-    padding-left: 7em;
-  }
-  .about_me .left .description {
+  .about_me .description {
     margin-top: 2em;
-  }
-  .about_me .right {
-    margin-top: unset;
   }
   .about_me .right img {
     display: block;
     border-radius: 50px;
   }
   .skills {
-    margin-top: -7em;
-    margin-bottom: -7em;
-    padding-top: 7em;
+    margin-top: -4em;
   }
   .skills-container ul {
     display: -ms-grid;
@@ -404,7 +383,7 @@ footer .footer-social ul img {
     padding: 2em 4em 2em 0;
   }
   section {
-    padding: 4em;
+    padding: 4em 4em 0em 4em;
   }
   .social-header {
     display: block;
@@ -474,18 +453,15 @@ footer .footer-social ul img {
   }
   .about_me .left {
     margin: unset;
-    padding-bottom: 9em;
-    padding-left: 4em;
   }
-  .about_me .right img {
-    display: block;
-    border-radius: 50px;
+  .about_me .right {
+    margin-top: -4em;
+  }
+  .skills {
+    margin-top: 0em;
   }
   .portfolio-container {
     grid-gap: 4em;
-  }
-  .skills {
-    margin-top: -9em;
   }
   .contact-me {
     font-size: 2em;
@@ -523,17 +499,17 @@ footer .footer-social ul img {
     margin-top: -5em;
   }
   .about_me .right img {
-    display: block;
-    border-radius: 50px;
+    margin-top: -5em;
   }
-  .skills {
-    margin-top: -9em;
+  .skills-container ul {
+    margin-top: -8em;
+    padding: unset;
   }
   .social-header {
     padding: 2em 10em 2em 0;
   }
   section {
-    padding: 10em 10em 4em 10em;
+    padding: 10em 10em 0em 10em;
   }
   .main .content {
     padding: 6em 8em 6em 10em;
@@ -550,23 +526,22 @@ footer .footer-social ul img {
   header {
     padding: 2em 2em 2em 17em;
   }
-  .about_me::before {
-    left: 12em;
-    top: 2em;
-  }
   .about_me .left {
     margin: unset;
     padding: unset;
     padding-top: 2em;
   }
   .skills {
-    margin-top: -9em;
+    margin-top: -2em;
+  }
+  .skills-container ul {
+    margin-top: unset;
   }
   .social-header {
     padding: 2em 20em 2em 0;
   }
   section {
-    padding: 6em 20em 4em 20em;
+    padding: 6em 20em 2em 20em;
   }
   .main .content {
     padding: 9em 20em 6em 20em;
